@@ -21,7 +21,7 @@ const SidebarMenu: React.FC<SidebarMenuProps> = ({
         isExpanded ? "w-60" : "w-0 overflow-hidden"
       }`}
     >
-      <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800">
+      <div className="h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-black dark:border-l-2">
         {isExpanded && (
           <>
             <h2 className="text-xl font-semibold">Overview</h2>

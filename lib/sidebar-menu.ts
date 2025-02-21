@@ -10,6 +10,7 @@ import {
   Images,
   Bot,
   Blocks,
+  Users,
 } from "lucide-react";
 
 // Navigation menu items
@@ -54,6 +55,7 @@ export const sideMenuTopIcons: MenuItem[] = [
   { name: "Home", icon: FolderKanban },
   { name: "Home", icon: ListTodo },
   { name: "Home", icon: LayoutDashboard },
+  { name: "Home", icon: Users },
   { name: "Home", icon: Settings },
   { name: "Home", icon: MessageCircle },
 ];

@@ -29,7 +29,7 @@ const SubMenu = ({ sub }: { sub: SubMenuItem }) => {
 
       <Link
         href={sub.href}
-        className="block ml-3 py-1 text-gray-900 dark:text-white leading-none hover:bg-gray-100 dark:hover:bg-gray-700"
+        className="w-full block ml-2 px-2 py-1 rounded-md text-gray-900 dark:text-white leading-none hover:bg-gray-100 dark:hover:bg-gray-700"
       >
         {sub.title}
       </Link>
